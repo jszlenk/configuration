@@ -6,6 +6,6 @@ accounts:
     username: postgres
     password: postgres
     ddl-auto: update
-  allow-get-accounts: true
+  allow-get-customer: true
 
 
