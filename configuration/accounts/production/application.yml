@@ -5,7 +5,7 @@ accounts:
     url: jdbc:postgresql://localhost:5432/accounts
     username: postgres
     password: postgres
-    ddl-auto: update
+    ddl-auto: create-drop
   allow-get-accounts: true
 
 
