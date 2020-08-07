@@ -1,19 +1,11 @@
 server:
   port: 7777
-
-spring:
-  jpa:
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-    show-sql: true
-    hibernate:
-      ddl-auto: create-drop
-    generate-ddl: true
+accounts:
   datasource:
-    initialization-mode: always
-    platform: postgres
     url: jdbc:postgresql://localhost:5432/accounts
     username: postgres
     password: postgres
+    ddl-auto: update
+  allow-get-accounts: true
+
 
